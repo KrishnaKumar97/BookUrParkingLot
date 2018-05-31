@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:text="@string/thanks" />
+
+    <Button
+        android:id="@+id/bookanotherslotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F24D5A"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="@string/book_another_slot" />
+</LinearLayout>

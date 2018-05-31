@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad">
+
+    <TextView
+        android:id="@+id/locationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_location"
+        android:layout_below="@+id/projtitletext"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/txtBrigadeRoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/brigaderoad"
+                android:textStyle="italic|bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/selectBrigadeRoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text=">"
+                android:textSize="40dp"
+                android:textColor="#808080"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/txtForumMall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBrigadeRoad"
+                android:layout_weight="1"
+                android:textStyle="italic|bold"
+                android:text="@string/forummall"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:id="@+id/selectForumMall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="40dp"
+                android:text=">"
+                android:textColor="#808080"/>
+
+        </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/resetBtn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Reset" />-->
+    </LinearLayout>
+
+

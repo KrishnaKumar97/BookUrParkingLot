@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OnlineParkingSystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="proj_title">Online Parking Reservation System</string>
+    <string name="select_location">Select your location</string>
+    <string name="radio_btn1Txt">Brigade Road</string>
+    <string name="radio_btn2Txt">Forum Mall</string>
+    <string name="location1_title">Brigade Road</string>
+    <string name="proceed_btn">Proceed</string>
+    <string name="enter_your_details">Enter your details</string>
+    <string name="name">Name</string>
+    <string name="vehicle_no">Vehicle Registeration No</string>
+    <string name="time_slot">Time slot</string>
+    <string name="to">To</string>
+    <string name="amount">Amount</string>
+    <string name="next_btn">Next</string>
+    <string name="location2_title">Forum Mall</string>
+    <string name="payment_mode">Choose your payment mode</string>
+    <string name="radio_btn3Txt">Credit Card</string>
+    <string name="radio_btn4Txt">Debit Card</string>
+    <string name="book_slot">Book Slot</string>
+    <string name="details">Please fill your details</string>
+
+</resources>
